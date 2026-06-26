@@ -1,4 +1,25 @@
-import { Dumbbell, Instagram, Twitter, Youtube } from "lucide-react"
+import { Dumbbell } from "lucide-react"
+
+const InstagramIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+  </svg>
+)
+
+const TwitterIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+  </svg>
+)
+
+const YoutubeIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M2.5 7.1C2.5 7.1 2 9.4 2 12c0 2.6.5 4.9.5 4.9.3 1.1 1.2 2 2.3 2.3 2.1.6 7.2.6 7.2.6s5.1 0 7.2-.6c1.1-.3 2-1.2 2.3-2.3.5-2.3.5-4.9.5-4.9s-.5-2.3-.5-4.9C21.2 6 20.3 5.1 19.2 4.8 17.1 4.2 12 4.2 12 4.2s-5.1 0-7.2.6c-1.1.3-2 1.2-2.3 2.3z"/>
+    <polygon points="10 15 15 12 10 9 10 15"/>
+  </svg>
+)
 
 export function Footer() {
   return (
@@ -14,13 +35,13 @@ export function Footer() {
           </p>
           <div className="flex gap-4">
             <a href="#" className="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-gray-400 hover:text-brand-red hover:bg-brand-red/10 transition-colors">
-              <Instagram className="w-5 h-5" />
+              <InstagramIcon />
             </a>
             <a href="#" className="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-gray-400 hover:text-brand-red hover:bg-brand-red/10 transition-colors">
-              <Twitter className="w-5 h-5" />
+              <TwitterIcon />
             </a>
             <a href="#" className="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-gray-400 hover:text-brand-red hover:bg-brand-red/10 transition-colors">
-              <Youtube className="w-5 h-5" />
+              <YoutubeIcon />
             </a>
           </div>
         </div>
@@ -44,7 +65,7 @@ export function Footer() {
               placeholder="Your email" 
               className="bg-brand-dark border border-brand-border rounded-lg px-4 py-2 text-white text-sm w-full focus:outline-none focus:border-brand-gold"
             />
-            <button className="bg-brand-red text-white px-4 py-2 rounded-lg font-poppins text-sm font-semibold hover:bg-red-600 transition-colors">
+            <button type="button" className="bg-brand-red text-white px-4 py-2 rounded-lg font-poppins text-sm font-semibold hover:bg-red-600 transition-colors">
               Join
             </button>
           </form>
