@@ -15,7 +15,7 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h2 className="text-5xl font-bebas text-brand-white">We Build Champions</h2>
           <p className="text-gray-400 font-inter text-lg leading-relaxed">
-            Antigravity Gym was founded on a simple principle: mediocrity is the enemy. 
+            Prime Fitness was founded on a simple principle: mediocrity is the enemy. 
             We provide an environment where excuses are left at the door. From our state-of-the-art 
             equipment to our meticulously curated training programs, every inch of our facility is 
             designed to extract your maximum potential.

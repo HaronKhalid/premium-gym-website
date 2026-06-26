@@ -22,7 +22,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Premium Gym | Build Your Dream Physique",
+  title: "Prime Fitness | Build Your Dream Physique",
   description: "A world-class, premium gym experience.",
 };
 

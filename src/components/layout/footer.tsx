@@ -9,9 +9,9 @@ const InstagramIcon = () => (
   </svg>
 )
 
-const TwitterIcon = () => (
+const FacebookIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
   </svg>
 )
 
@@ -29,19 +29,19 @@ export function Footer() {
         <div className="col-span-1 md:col-span-2">
           <div className="flex items-center gap-2 mb-6 cursor-pointer">
             <Dumbbell className="w-8 h-8 text-brand-red" />
-            <span className="font-bebas text-3xl tracking-widest text-brand-white">ANTIGRAVITY</span>
+            <span className="font-bebas text-3xl tracking-widest text-brand-white">PRIME FITNESS</span>
           </div>
           <p className="text-gray-400 font-inter max-w-sm mb-8">
             The ultimate standard in fitness. World-class facilities, elite trainers, and a community built on relentless progress.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-gray-400 hover:text-brand-red hover:bg-brand-red/10 transition-colors">
+            <a href="https://www.instagram.com/primefitnesspakistan/" target="_blank" className="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-gray-400 hover:text-brand-red hover:bg-brand-red/10 transition-colors">
               <InstagramIcon />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-gray-400 hover:text-brand-red hover:bg-brand-red/10 transition-colors">
-              <TwitterIcon />
+            <a href="https://www.facebook.com/PrimeFitnessPakistan/" target="_blank" className="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-gray-400 hover:text-brand-red hover:bg-brand-red/10 transition-colors">
+              <FacebookIcon />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-gray-400 hover:text-brand-red hover:bg-brand-red/10 transition-colors">
+            <a href="http://www.theprimefitness.com/" target="_blank" className="w-10 h-10 rounded-full bg-brand-dark flex items-center justify-center text-gray-400 hover:text-brand-red hover:bg-brand-red/10 transition-colors">
               <YoutubeIcon />
             </a>
           </div>
@@ -75,7 +75,7 @@ export function Footer() {
       
       <div className="container mx-auto px-4 md:px-8 max-w-7xl border-t border-brand-border/50 pt-8 flex flex-col md:flex-row items-center justify-between">
         <p className="text-gray-500 font-inter text-xs mb-4 md:mb-0">
-          © {new Date().getFullYear()} Antigravity Gym. All rights reserved.
+          © {new Date().getFullYear()} Prime Fitness. All rights reserved.
         </p>
         <div className="flex gap-6">
           <a href="#" className="text-gray-500 hover:text-white font-inter text-xs transition-colors">Privacy Policy</a>

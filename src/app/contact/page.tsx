@@ -28,7 +28,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-poppins font-semibold text-white">Location</h4>
-                  <p className="text-gray-400 font-inter text-sm">123 Iron Avenue, Fitness District, NY 10001</p>
+                  <p className="text-gray-400 font-inter text-sm">Commercial Market Rd, Block B, Satellite Town, Rawalpindi, 46300, Pakistan</p>
                 </div>
               </div>
               
@@ -38,7 +38,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-poppins font-semibold text-white">Phone</h4>
-                  <p className="text-gray-400 font-inter text-sm">+1 (555) 123-4567</p>
+                  <p className="text-gray-400 font-inter text-sm">0311 1777773</p>
                 </div>
               </div>
 
@@ -48,7 +48,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-poppins font-semibold text-white">Email</h4>
-                  <p className="text-gray-400 font-inter text-sm">info@antigravitygym.com</p>
+                  <p className="text-gray-400 font-inter text-sm">info@theprimefitness.com</p>
                 </div>
               </div>
 
@@ -58,7 +58,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-poppins font-semibold text-white">Hours</h4>
-                  <p className="text-gray-400 font-inter text-sm">Open 24/7 for Members</p>
+                  <p className="text-gray-400 font-inter text-sm">Open 24 Hours</p>
                 </div>
               </div>
             </div>

@@ -31,7 +31,7 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 cursor-pointer">
           <Dumbbell className="w-8 h-8 text-brand-red" />
-          <span className="font-bebas text-2xl tracking-widest text-brand-white">ANTIGRAVITY</span>
+          <span className="font-bebas text-2xl tracking-widest text-brand-white">PRIME FITNESS</span>
         </Link>
 
         {/* Desktop Nav */}
