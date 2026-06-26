@@ -1,4 +1,5 @@
 import { Dumbbell } from "lucide-react"
+import Link from "next/link"
 
 const InstagramIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -49,10 +50,10 @@ export function Footer() {
         <div>
           <h4 className="font-bebas text-xl text-brand-white mb-6 tracking-wide">Quick Links</h4>
           <ul className="space-y-4">
-            <li><a href="#" className="text-gray-400 hover:text-brand-gold transition-colors font-inter text-sm">About Us</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-brand-gold transition-colors font-inter text-sm">Membership</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-brand-gold transition-colors font-inter text-sm">Personal Training</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-brand-gold transition-colors font-inter text-sm">Contact</a></li>
+            <li><Link href="/about" className="text-gray-400 hover:text-brand-gold transition-colors font-inter text-sm">About Us</Link></li>
+            <li><Link href="/pricing" className="text-gray-400 hover:text-brand-gold transition-colors font-inter text-sm">Membership</Link></li>
+            <li><Link href="/programs" className="text-gray-400 hover:text-brand-gold transition-colors font-inter text-sm">Programs</Link></li>
+            <li><Link href="/contact" className="text-gray-400 hover:text-brand-gold transition-colors font-inter text-sm">Contact</Link></li>
           </ul>
         </div>
 
