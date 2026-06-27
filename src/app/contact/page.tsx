@@ -93,6 +93,22 @@ export default function ContactPage() {
 
         </div>
       </Section>
+
+      {/* Map Section */}
+      <Section className="bg-brand-black pt-0 pb-20">
+        <div className="max-w-6xl mx-auto rounded-3xl overflow-hidden border border-brand-border h-[400px] w-full relative">
+          <iframe 
+            width="100%" 
+            height="100%" 
+            title="Location Map"
+            src="https://maps.google.com/maps?q=Commercial%20Market%20Rd,%20Block%20B,%20Satellite%20Town,%20Rawalpindi,%20Pakistan&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            className="border-0 grayscale contrast-125 opacity-90"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+      </Section>
     </main>
   )
 }
