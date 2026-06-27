@@ -2,6 +2,7 @@ import { HeroSection } from "@/components/sections/hero"
 import { WhyUsSection } from "@/components/sections/why-us"
 import { TransformationsSection } from "@/components/sections/transformations"
 import { FacilitiesSection } from "@/components/sections/facilities"
+import { TrainersHomeSection } from "@/components/sections/trainers-home"
 import { FAQSection } from "@/components/sections/faq"
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <WhyUsSection />
       <TransformationsSection />
       <FacilitiesSection />
+      <TrainersHomeSection />
       <FAQSection />
     </main>
   );
