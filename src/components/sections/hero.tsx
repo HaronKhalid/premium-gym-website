@@ -26,7 +26,7 @@ export function HeroSection() {
         </video>
       </div>
 
-      <div className="container relative z-20 mx-auto px-4 md:px-8 max-w-7xl flex flex-col items-start justify-center h-full pt-20">
+      <div className="container relative z-20 mx-auto px-4 sm:px-6 md:px-8 max-w-7xl flex flex-col items-start justify-center h-full pt-20">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ export function HeroSection() {
         </motion.div>
 
         <motion.h1 
-          className="text-6xl md:text-8xl lg:text-[9rem] leading-[0.85] text-brand-white mb-6"
+          className="text-5xl sm:text-6xl md:text-8xl lg:text-[9rem] leading-[1] md:leading-[0.85] text-brand-white mb-6"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
@@ -50,7 +50,7 @@ export function HeroSection() {
         </motion.h1>
 
         <motion.p 
-          className="text-lg md:text-xl text-gray-400 font-inter max-w-2xl mb-10"
+          className="text-base sm:text-lg md:text-xl text-gray-400 font-inter max-w-2xl mb-8 md:mb-10"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}

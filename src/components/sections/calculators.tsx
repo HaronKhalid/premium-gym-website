@@ -76,7 +76,7 @@ export function CalculatorsSection() {
               onSubmit={calculateBMI}
               className="space-y-6"
             >
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-gray-400 font-inter text-sm mb-2">Height (cm)</label>
                   <input type="number" value={height} onChange={(e)=>setHeight(e.target.value)} className="w-full bg-brand-black border border-brand-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-gold" />
@@ -103,27 +103,27 @@ export function CalculatorsSection() {
               onSubmit={calculateCalories}
               className="space-y-6"
             >
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="col-span-2">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div className="col-span-1 md:col-span-2">
                   <label className="block text-gray-400 font-inter text-sm mb-2">Height (cm)</label>
                   <input type="number" value={height} onChange={(e)=>setHeight(e.target.value)} className="w-full bg-brand-black border border-brand-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-red" />
                 </div>
-                <div className="col-span-2">
+                <div className="col-span-1 md:col-span-2">
                   <label className="block text-gray-400 font-inter text-sm mb-2">Weight (kg)</label>
                   <input type="number" value={weight} onChange={(e)=>setWeight(e.target.value)} className="w-full bg-brand-black border border-brand-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-red" />
                 </div>
-                <div className="col-span-2">
+                <div className="col-span-1 md:col-span-2">
                   <label className="block text-gray-400 font-inter text-sm mb-2">Age</label>
                   <input type="number" value={age} onChange={(e)=>setAge(e.target.value)} className="w-full bg-brand-black border border-brand-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-red" />
                 </div>
-                <div className="col-span-2">
+                <div className="col-span-1 md:col-span-2">
                   <label className="block text-gray-400 font-inter text-sm mb-2">Gender</label>
                   <select value={gender} onChange={(e)=>setGender(e.target.value)} className="w-full bg-brand-black border border-brand-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-red appearance-none">
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                   </select>
                 </div>
-                <div className="col-span-4">
+                <div className="col-span-1 md:col-span-4">
                   <label className="block text-gray-400 font-inter text-sm mb-2">Activity Level</label>
                   <select value={activity} onChange={(e)=>setActivity(e.target.value)} className="w-full bg-brand-black border border-brand-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-red appearance-none">
                     <option value="1.2">Sedentary (little to no exercise)</option>

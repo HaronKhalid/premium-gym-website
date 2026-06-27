@@ -9,7 +9,7 @@ export default function ContactPage() {
       <PageHeader 
         title="Contact Us" 
         subtitle="Get in touch" 
-        image="set"
+        image="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop"
       />
       
       <Section className="bg-brand-black">
@@ -69,9 +69,15 @@ export default function ContactPage() {
           <div className="bg-brand-card border border-brand-border p-8 rounded-3xl">
             <h3 className="text-2xl font-poppins font-bold text-white mb-6">Send a Message</h3>
             <form className="space-y-4">
-              <div>
-                <label className="block text-gray-400 font-inter text-sm mb-2">Name</label>
-                <input type="text" className="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-gold" />
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-gray-400 font-inter text-sm mb-2">First Name</label>
+                  <input type="text" className="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-gold" />
+                </div>
+                <div>
+                  <label className="block text-gray-400 font-inter text-sm mb-2">Last Name</label>
+                  <input type="text" className="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-gold" />
+                </div>
               </div>
               <div>
                 <label className="block text-gray-400 font-inter text-sm mb-2">Email</label>

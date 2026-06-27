@@ -86,12 +86,12 @@ export function TrainersHomeSection() {
               <img 
                 src={trainer.image} 
                 alt={trainer.name} 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale-0 md:grayscale md:group-hover:grayscale-0"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-brand-black/20 to-transparent transition-opacity duration-500 opacity-90 group-hover:opacity-70" />
               
-              <div className="absolute bottom-0 left-0 w-full p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                <h3 className="text-3xl font-bebas text-brand-white mb-1 group-hover:text-brand-gold transition-colors">{trainer.name}</h3>
+              <div className="absolute bottom-0 left-0 w-full p-6 translate-y-0 md:translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                <h3 className="text-3xl font-bebas text-brand-gold md:text-brand-white mb-1 group-hover:text-brand-gold transition-colors">{trainer.name}</h3>
                 <p className="text-gray-300 font-inter text-sm">{trainer.specialty}</p>
               </div>
             </motion.div>
