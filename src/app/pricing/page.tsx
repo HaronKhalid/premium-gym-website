@@ -8,7 +8,7 @@ export default function PricingPage() {
       <PageHeader 
         title="Membership Plans" 
         subtitle="No Excuses. Just Results." 
-        image="https://images.unsplash.com/photo-1596356453261-0d265eb2d1f3?q=80&w=2070&auto=format&fit=crop" 
+        image="set" 
       />
       <PricingSection />
       <FAQSection />

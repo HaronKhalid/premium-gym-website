@@ -9,6 +9,7 @@ export default function ContactPage() {
       <PageHeader 
         title="Contact Us" 
         subtitle="Get in touch" 
+        image="set"
       />
       
       <Section className="bg-brand-black">
