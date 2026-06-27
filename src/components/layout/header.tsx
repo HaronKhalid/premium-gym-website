@@ -21,6 +21,7 @@ export function Header() {
     { name: "Programs", href: "/programs" },
     { name: "Trainers", href: "/trainers" },
     { name: "Pricing", href: "/pricing" },
+    { name: "Fitness Tools", href: "/fitness-tools" },
     { name: "About Us", href: "/about" },
     { name: "Contact", href: "/contact" },
   ]
@@ -29,10 +30,10 @@ export function Header() {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-brand-dark/80 backdrop-blur-md border-b border-brand-border py-4' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-4 md:px-8 max-w-7xl flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 cursor-pointer">
+        <a href="/" className="flex items-center gap-2 cursor-pointer">
           <Dumbbell className="w-8 h-8 text-brand-red" />
           <span className="font-bebas text-2xl tracking-widest text-brand-white">PRIME FITNESS</span>
-        </Link>
+        </a>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">

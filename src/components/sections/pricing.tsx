@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils"
 const plans = [
   {
     name: "Basic",
-    price: "$49",
+    price: "Rs.2500",
     period: "/mo",
     description: "Perfect for beginners starting their fitness journey.",
     features: [
@@ -22,7 +22,7 @@ const plans = [
   },
   {
     name: "Pro",
-    price: "$89",
+    price: "Rs.3500",
     period: "/mo",
     description: "The ultimate package for serious athletes.",
     features: [
@@ -36,7 +36,7 @@ const plans = [
   },
   {
     name: "Elite",
-    price: "$149",
+    price: "Rs.5500",
     period: "/mo",
     description: "VIP treatment with unrestricted access.",
     features: [
@@ -52,12 +52,7 @@ const plans = [
 
 export function PricingSection() {
   return (
-    <Section className="bg-brand-black">
-      <SectionHeader 
-        title="Membership Plans" 
-        subtitle="Invest In Yourself" 
-      />
-      
+    <Section className="bg-brand-black pt-12 md:pt-16">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto items-center">
         {plans.map((plan, idx) => (
           <motion.div

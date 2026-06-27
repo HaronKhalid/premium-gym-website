@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Play } from "lucide-react"
+import Link from "next/link"
 
 import { Counter } from "@/components/ui/counter"
 
@@ -63,9 +64,11 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
-          <Button size="lg" className="w-full sm:w-auto">
-            Join Now
-          </Button>
+          <Link href="/contact" className="w-full sm:w-auto">
+            <Button size="lg" className="w-full">
+              Join Now
+            </Button>
+          </Link>
           <Button variant="outline" size="lg" className="w-full sm:w-auto gap-2">
             <Play className="w-5 h-5 fill-current" />
             Watch Transformation
